@@ -5,8 +5,7 @@
 <?import javafx.scene.layout.Pane?>
 <?import javafx.scene.text.Font?>
 
-
-<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="418.0" prefWidth="382.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="418.0" prefWidth="382.0" style="-fx-background-color: rgb(111,111,111);" stylesheets="@style.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
    <children>
       <Button layoutX="97.0" layoutY="171.0" mnemonicParsing="false" onAction="#pressing8Btn" prefHeight="51.0" prefWidth="53.0" text="8" />
       <Button layoutX="23.0" layoutY="171.0" mnemonicParsing="false" onAction="#pressing7Btn" prefHeight="51.0" prefWidth="53.0" text="7" />
@@ -26,10 +25,10 @@
       <Button layoutX="165.0" layoutY="353.0" mnemonicParsing="false" onAction="#pressing0Btn" prefHeight="51.0" prefWidth="53.0" text="0" />
       <Button layoutX="237.0" layoutY="294.0" mnemonicParsing="false" onAction="#add" prefHeight="51.0" prefWidth="53.0" text="+" />
       <Button layoutX="307.0" layoutY="232.0" mnemonicParsing="false" onAction="#divide" prefHeight="51.0" prefWidth="53.0" text="/" />
-      <Button layoutX="237.0" layoutY="232.0" mnemonicParsing="false" onAction="#times" prefHeight="51.0" prefWidth="53.0" text="*" />
+      <Button layoutX="237.0" layoutY="232.0" mnemonicParsing="false" onAction="#times" prefHeight="51.0" prefWidth="53.0" text="×" />
       <Button layoutX="237.0" layoutY="110.0" mnemonicParsing="false" onAction="#backspace" prefHeight="51.0" prefWidth="53.0" text="DEL" />
       <Button layoutX="307.0" layoutY="110.0" mnemonicParsing="false" onAction="#clear" prefHeight="51.0" prefWidth="53.0" text="AC" />
-      <TextField fx:id="reader" alignment="CENTER_RIGHT" disable="true" editable="false" layoutX="20.0" layoutY="23.0" prefHeight="74.0" prefWidth="340.0">
+      <TextField fx:id="reader" alignment="CENTER_RIGHT" disable="true" editable="false" layoutX="20.0" layoutY="23.0" prefHeight="74.0" prefWidth="340.0" style="-fx-background-color: rgb(250,250,250); -fx-background-radius: 10px;">
          <font>
             <Font size="30.0" />
          </font>

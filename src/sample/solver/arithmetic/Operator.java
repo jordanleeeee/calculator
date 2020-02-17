@@ -14,12 +14,6 @@ public enum Operator {
     public static boolean isTimesOrDivide(char c){
         return ( c == '×' || c == '÷' );
     }
-//    public boolean isTimesOrDivide(){
-//        return (this == times || this == divide);
-//    }
-//    public boolean isAddOrMinus(){
-//        return (this == add || this == minus);
-//    }
 
     public static Operator getOperator(char c){
         switch (c){
@@ -52,5 +46,4 @@ public enum Operator {
             return a.divide(b,8, RoundingMode.HALF_UP);
         }
     }
-
 }

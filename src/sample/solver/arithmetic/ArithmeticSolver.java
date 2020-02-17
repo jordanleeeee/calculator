@@ -9,7 +9,7 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
-public class ArithmeticOperator {
+public class ArithmeticSolver {
     private String equation;
 
     //using double is cannot do correct calculation...
@@ -19,7 +19,7 @@ public class ArithmeticOperator {
     private ArrayList<BigDecimal> numbers = new ArrayList<>();
     private ArrayList<Operator> operators = new ArrayList<>();
 
-    public ArithmeticOperator(String equation) throws MathException{
+    public ArithmeticSolver(String equation) throws MathException{
         this.equation = equation;
         solve();
     }
