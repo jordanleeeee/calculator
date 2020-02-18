@@ -2,13 +2,15 @@ package sample.solver;
 
 import sample.exception.MathException;
 import sample.exception.SyntaxErrorException;
-import sample.solver.arithmetic.ArithmeticSolver;
-import sample.solver.arithmetic.Operator;
+import sample.solver.arithmetic.*;
 
 
 public class Solver {
-    private String equation;
 
+    private final char openParentheses = '(';
+    private final char closeParentheses = ')';
+
+    private String equation;
     private String answer;
     private MathException exception = null;
 
@@ -36,9 +38,9 @@ public class Solver {
     private void addingTimesSign(){
         for (int i = 1; i < equation.length(); i++) {
             char oneChar = equation.charAt(i);
-            if(oneChar == '('){
+            if(oneChar == openParentheses){
                 char previousChar = equation.charAt(i-1);
-                if(Character.isDigit(previousChar) || previousChar == ')'){
+                if(Character.isDigit(previousChar) || previousChar == closeParentheses){
                     String former = equation.substring(0, i);   //[0, i)
                     String latter = equation.substring(i);      //[i, end]
                     equation = former + '×' + latter;
@@ -57,7 +59,8 @@ public class Solver {
     }
 
     private boolean isCorrectUseOfParenthesis(){
-        if(equation.charAt(equation.length()-1) == '('){
+        char lastChar = equation.charAt(equation.length()-1);
+        if(lastChar == openParentheses){
             return false;
         }
         int numOfOpenParenthesis = 0;
@@ -65,10 +68,10 @@ public class Solver {
         boolean openParenthesisAppear = false;
         for(int i=0; i<equation.length(); i++){
             char oneChar = equation.charAt(i);
-            if(oneChar == '('){
+            if(oneChar == openParentheses){
                 openParenthesisAppear = true;
                 numOfOpenParenthesis++;
-            } else if (oneChar == ')') {
+            } else if (oneChar == closeParentheses) {
                 if(!openParenthesisAppear){
                     return false;
                 }
@@ -78,7 +81,8 @@ public class Solver {
                         return false;
                     }
                 }
-                if(equation.charAt(i-1) == '('){
+                char previousChar = equation.charAt(i-1);
+                if(previousChar == openParentheses){
                     return false;
                 }
                 numOfCloseParenthesis++;
@@ -96,10 +100,10 @@ public class Solver {
         int indexOfOpenParenthesis = -1;
         for(int i=0; i<equation.length(); i++){
             char oneChar = equation.charAt(i);
-            if(oneChar == '('){
+            if(oneChar == openParentheses){
                 indexOfOpenParenthesis = i;
             }
-            if (oneChar == ')') {
+            else if (oneChar == closeParentheses) {
                 assert indexOfOpenParenthesis != -1;
                 String arithmeticEquation = equation.substring(indexOfOpenParenthesis+1, i);
 

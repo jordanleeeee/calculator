@@ -1,8 +1,6 @@
 package sample.solver.arithmetic;
 
-import sample.exception.DivideByZeroException;
-import sample.exception.MathException;
-import sample.exception.SyntaxErrorException;
+import sample.exception.*;
 
 import java.math.BigDecimal;
 import java.util.ArrayList;
@@ -85,7 +83,12 @@ public class ArithmeticSolver {
             }
             else if(Operator.isCalculationOperator(oneChar)){       //the char is an operator
                 if (i == 0) {
-                    if(Operator.isTimesOrDivide(oneChar)){
+                    if (oneChar == '-') {
+                        isNegative = true;
+                        continue;
+                    } else if (oneChar == '+') {
+                        continue;
+                    } else if(Operator.isTimesOrDivide(oneChar)) {
                         throw new SyntaxErrorException();
                     }
                 }
@@ -122,7 +125,7 @@ public class ArithmeticSolver {
         for (int i = 0; i < operators.size(); i++) {
             Operator operator = operators.get(i);
             if(allowedOperator.contains(operator)){
-                numbers.set(i, operator.calculation(numbers.get(i), numbers.get(i + 1)));
+                numbers.set(i, operator.calculate(numbers.get(i), numbers.get(i + 1)));
                 numbers.remove(i + 1);
                 operators.remove(i);
                 i--;

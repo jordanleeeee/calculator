@@ -25,7 +25,7 @@ public enum Operator {
         }
     }
 
-    public BigDecimal calculation(BigDecimal a, BigDecimal b) throws DivideByZeroException {
+    public BigDecimal calculate(BigDecimal a, BigDecimal b) throws DivideByZeroException {
         switch (this){
             case add: return a.add(b);
             case minus: return  a.subtract(b);
