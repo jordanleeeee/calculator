@@ -1,17 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="calculator" />
+    </artifacts-to-build>
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/calculator.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Main/Controller.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Main/resources/calculator.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/calculator/sample/solver/Solver.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/calculator/sample/solver/Solver.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/calculator/sample/solver/arithmetic/ArithmeticSolver.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/calculator/sample/solver/arithmetic/ArithmeticSolver.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/calculator/sample/solver/arithmetic/Operator.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/calculator/sample/solver/arithmetic/Operator.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/calculator/sample/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/calculator/sample/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sample/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/Controller.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sample/solver/Solver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/solver/Solver.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sample/solver/arithmetic/ArithmeticSolver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/solver/arithmetic/ArithmeticSolver.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sample/solver/arithmetic/Operator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/solver/arithmetic/Operator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sample/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/calculator.iml" beforeDir="false" afterPath="$PROJECT_DIR$/calculator.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/calculator/sample/Controller.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/calculator/sample/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/calculator/sample/calculator.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/calculator/sample/exception/DivideByZeroException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/calculator/sample/exception/MathException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/calculator/sample/exception/SyntaxErrorException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/calculator/sample/solver/Solver.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/calculator/sample/solver/arithmetic/ArithmeticSolver.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/calculator/sample/solver/arithmetic/Operator$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/calculator/sample/solver/arithmetic/Operator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/calculator/sample/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sample/Controller.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sample/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sample/calculator.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sample/exception/DivideByZeroException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exception/DivideByZeroException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sample/exception/MathException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exception/MathException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sample/exception/SyntaxErrorException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exception/SyntaxErrorException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sample/solver/Solver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/solver/Solver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sample/solver/arithmetic/ArithmeticSolver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/solver/arithmetic/ArithmeticSolver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sample/solver/arithmetic/Operator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/solver/arithmetic/Operator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sample/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main/resources/style.css" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -86,6 +107,7 @@
     <option name="STATE" value="0" />
   </component>
   <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
     <property name="GoToClass.includeLibraries" value="false" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
     <property name="GoToFile.includeJavaFiles" value="false" />
@@ -93,13 +115,25 @@
     <property name="MemberChooser.showClasses" value="true" />
     <property name="MemberChooser.sorted" value="false" />
     <property name="OverrideImplement.combined" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="dynamic.classpath" value="false" />
     <property name="last_opened_file_path" value="C:/Program Files/javafx-sdk-13.0.1/lib" />
-    <property name="project.structure.last.edited" value="Libraries" />
-    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="recentsLimit" value="5" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Java\calculator\src\Main\resources" />
+      <recent name="D:\Java\calculator\src\Main" />
+      <recent name="D:\Java\calculator\src\sample" />
+      <recent name="D:\Java\calculator\src" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -113,7 +147,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.Main">
     <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
       <option name="VMOptions" />
       <option name="arguments" />
@@ -133,12 +167,12 @@
       </method>
     </configuration>
     <configuration name="Main" type="Application" factoryName="Application">
-      <option name="MAIN_CLASS_NAME" value="sample.Main" />
+      <option name="MAIN_CLASS_NAME" value="Main.Main" />
       <module name="calculator" />
       <option name="VM_PARAMETERS" value="--module-path  &quot;C:\Program Files\javafx-sdk-13.0.1\lib&quot; --add-modules javafx.controls,javafx.media,javafx.fxml" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="sample.*" />
+          <option name="PATTERN" value=".*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -148,8 +182,95 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main.Main" />
+      <module name="calculator" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SolverTester" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="calculator" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="solver.arithmetic.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="solver.arithmetic" />
+      <option name="MAIN_CLASS_NAME" value="solver.arithmetic.SolverTester" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SolverTester.invalidTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="calculator" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="solver.arithmetic.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="solver.arithmetic" />
+      <option name="MAIN_CLASS_NAME" value="solver.arithmetic.SolverTester" />
+      <option name="METHOD_NAME" value="invalidTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SolverTester.minusTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="calculator" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="solver.arithmetic.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="solver.arithmetic" />
+      <option name="MAIN_CLASS_NAME" value="solver.arithmetic.SolverTester" />
+      <option name="METHOD_NAME" value="minusTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SolverTester.timesTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="calculator" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="solver.arithmetic.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="solver.arithmetic" />
+      <option name="MAIN_CLASS_NAME" value="solver.arithmetic.SolverTester" />
+      <option name="METHOD_NAME" value="timesTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -185,6 +306,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main (1)" />
+        <item itemvalue="JUnit.SolverTester.invalidTest" />
+        <item itemvalue="JUnit.SolverTester.timesTest" />
+        <item itemvalue="JUnit.SolverTester.minusTest" />
+        <item itemvalue="JUnit.SolverTester" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
