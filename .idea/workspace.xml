@@ -7,32 +7,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/calculator.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Main/Controller.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Main/resources/calculator.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/calculator.iml" beforeDir="false" afterPath="$PROJECT_DIR$/calculator.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/calculator/sample/Controller.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/calculator/sample/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/calculator/sample/calculator.fxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/calculator/sample/exception/DivideByZeroException.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/calculator/sample/exception/MathException.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/calculator/sample/exception/SyntaxErrorException.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/calculator/sample/solver/Solver.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/calculator/sample/solver/arithmetic/ArithmeticSolver.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/calculator/sample/solver/arithmetic/Operator$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/calculator/sample/solver/arithmetic/Operator.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/calculator/sample/style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sample/Controller.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sample/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sample/calculator.fxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sample/exception/DivideByZeroException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exception/DivideByZeroException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sample/exception/MathException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exception/MathException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sample/exception/SyntaxErrorException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exception/SyntaxErrorException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sample/solver/Solver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/solver/Solver.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sample/solver/arithmetic/ArithmeticSolver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/solver/arithmetic/ArithmeticSolver.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sample/solver/arithmetic/Operator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/solver/arithmetic/Operator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sample/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main/resources/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/info/Capture.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/info/README.md" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
